@@ -2,6 +2,8 @@
 
 本项目把阶段一的 LiteLLM 统一模型网关，升级为基于 pi 的 Agent 工具调用基础设施。模型、CLI、`pi-coding-agent` 扩展和审批 API 共用同一个 `ToolRuntime`；正式 MCP 连接 `my-coffee`。
 
+> 作业说明：[为治理框架增加“转账”工具](docs/transfer-tool-assignment.md)，介绍主要改动文件、工具治理流程与安全边界。
+
 ## 1. 环境
 
 - Python 3.12+
